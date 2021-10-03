@@ -1,0 +1,236 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-03T07:36:27.260Z",
+        "line": 4,
+        "name": "Validate amazon search page",
+        "description": "",
+        "id": "feature-to-test-amazon-search-functionality;validate-amazon-search-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2147397000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "browser is open",
+            "match": {
+              "location": "StepDefinitions.AmazonSearch.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1189745000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on amazon search page",
+            "match": {
+              "location": "StepDefinitions.AmazonSearch.user_is_on_amazon_search_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2212233000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters a text in search box",
+            "match": {
+              "location": "StepDefinitions.AmazonSearch.user_enters_a_text_in_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3779790000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "hits enter",
+            "match": {
+              "location": "StepDefinitions.AmazonSearch.hits_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 453405000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is navigated to search results",
+            "match": {
+              "location": "StepDefinitions.AmazonSearch.user_is_navigated_to_search_results()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "feature to test amazon search functionality",
+    "description": "",
+    "id": "feature-to-test-amazon-search-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/amazon.feature",
+    "tags": []
+  },
+  {
+    "line": 7,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-03T07:36:37.124Z",
+        "line": 9,
+        "name": "Check login is successful with valid credentials",
+        "description": "",
+        "id": "feature-to-test-login-functionality;check-login-is-successful-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 288000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 198000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters username and password",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 708000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Clicks on login button",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 290000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is navigated to the home page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "feature to test login functionality",
+    "description": "",
+    "id": "feature-to-test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-03T07:36:37.135Z",
+        "line": 3,
+        "name": "Check login is successful with valid credntials",
+        "description": "",
+        "id": "test-login-functionality;check-login-is-successful-with-valid-credntials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1404269000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "test project browser is open",
+            "match": {
+              "location": "StepDefinitions.LogInTestProject.test_project_browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 607237000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user landed to the login page",
+            "match": {
+              "location": "StepDefinitions.LogInTestProject.user_landed_to_the_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 168566000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters valid username and password",
+            "match": {
+              "location": "StepDefinitions.LogInTestProject.user_enters_valid_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41945000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter click",
+            "match": {
+              "location": "StepDefinitions.LogInTestProject.user_enter_click()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81612000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "StepDefinitions.LogInTestProject.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test login functionality",
+    "description": "",
+    "id": "test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/loginTestProject.feature",
+    "tags": []
+  }
+]
